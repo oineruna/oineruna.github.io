@@ -569,12 +569,12 @@ fieldset>textarea,fieldset>div>input:not([type="checkbox"]),fieldset>div>select,
 }
 fieldset>a[href]:not([type="ad"]),fieldset>div>select,fieldset>div>div>select {
 	background-repeat:no-repeat;
-	background-image:url("https://raw.githubusercontent.com/TrueSnipor/TrueSnipor.github.io/master/depictions/resources/images/arrow.png");
+	background-image:url("https://raw.githubusercontent.com/oineruna/oineruna.github.io/master/depictions/resources/images/arrow.png");
 	background-position:96.5%
 }
 @media screen and (-webkit-min-device-pixel-ratio: 2) {
 	fieldset>a[href]:not([type="ad"]),fieldset>div>select,fieldset>div>div>select {
-		background-image:url("https://raw.githubusercontent.com/TrueSnipor/TrueSnipor.github.io/master/depictions/resources/images/arrow.png");
+		background-image:url("https://raw.githubusercontent.com/oineruna/oineruna.github.io/master/depictions/resources/images/arrow.png");
 		background-size:10px 13px
 	}
 }
