@@ -1,8 +1,8 @@
 ﻿Origin: A repo for my backup
-Label: OineRuna
+Label: A repo for my backup
 Suite: stable
 Version: 2.02
-Codename: oineruna
+Codename: A repo for my backup
 Architectures: iphoneos-arm
 Compornent: main
 Description: A repo for my backup
