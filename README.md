@@ -1,5 +1,5 @@
 # Reposi3
-A Cydia repository template. This template contains sample on how you can easily make depiction pages without replicating your html pages. The pages are styled using [Bootsrap](http://getbootstrap.com/) which is really easy to use. You can see how it looks like by visiting [this sample repo](https://supermamon.github.io/Reposi3/) on your desktop or mobile phone.
+A Cydia repository template. This template contains sample on how you can easily make depiction pages without replicating your html pages. The pages are styled using [Bootsrap](http://getbootstrap.com/) which is really easy to use. You can see how it looks like by visiting [this sample repo](https://oineruna.github.io/) on your desktop or mobile phone.
 
 Most data for this repo is stored on XML files and are loaded on the depiction page dynamically. See the guide below on how to set it up. Note that this guide doesn't cover creating .deb files but will briefly cover assiging depictions.
 
@@ -7,7 +7,7 @@ Most data for this repo is stored on XML files and are loaded on the depiction p
 
 ### 1. Download
 
-If you are *not* hosting your repo on [Github Pages](https://pages.github.com/), you can download the zip file [here](https://github.com/supermamon/Reposi3/archive/master.zip) and extract to a subfolder on your website.
+If you are *not* hosting your repo on [Github Pages](https://pages.github.com/), you can download the zip file [here](https://github.com/oineruna/oineruna.github.io/archive/master.zip) and extract to a subfolder on your website.
 
 There are 2 options for those using [Github Pages](https://pages.github.com/).
 
@@ -24,14 +24,14 @@ You can change `repo` to anything you want, like `cydia` for example. So your re
 
 Edit `Release` file. Modify the items pointed by `<--`
 
-    Origin: Reposi3  <--
-    Label: Reposi3   <--
+    Origin: A repo for my backup  <--
+    Label: A repo for my backup   <--
     Suite: stable
     Version: 1.0
     Codename: ios
     Architectures: iphoneos-arm
     Components: main
-    Description: Reposi3 - a cydia repo template  <--
+    Description: oineruna - a cydia repo template  <--
 
 **Branding**
 
@@ -51,8 +51,6 @@ This data are the links that appear at the bottom of every depication. The data 
 <repo>
     <footerlinks>
         <link>
-            <name>Follow me on Twitter</name>
-            <url>https://twitter.com/reposi3</url>
             <iconclass>glyphicon glyphicon-user</iconclass>
         </link>
         <link>
@@ -81,7 +79,7 @@ Rename the duplicate with the same name as your package name.
 There are 2 files inside the folder - `info.xml` and `changelog.xml`.
 Update the 2 files with information regading your package.
 The tags are pretty much self-explanatory.
-Contact [@reposi3](https://twitter.com/reposi3) or [@supermamon](https://twitter.com/supermamon) for questions.
+Contact Mail for questions.
 
 `info.xml`.
 ```xml
