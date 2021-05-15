@@ -28,7 +28,7 @@ Edit `Release` file. Modify the items pointed by `<--`
     Label: A repo for my backup   <--
     Suite: stable
     Version: 1.0
-    Codename: ios
+    Codename: iOS
     Architectures: iphoneos-arm
     Components: main
     Description: oineruna - a cydia repo template  <--
